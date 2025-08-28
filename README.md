@@ -3,8 +3,6 @@
   <img src='radar1.png' width="45%" max-width="360px" style="object-fit: contain;"/>
 </div>
 <br><br><br><br><br><br>
-
-
 # 优必选科技机器人规划大模型
 ![GitHub Stars](https://img.shields.io/github/stars/ubtech-robotics/robot-planning-llm)
 ![GitHub Issues](https://img.shields.io/github/issues/ubtech-robotics/robot-planning-llm)
