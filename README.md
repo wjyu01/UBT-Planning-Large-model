@@ -1,4 +1,4 @@
-<img src='imgs/teaser.gif' align="right" width=360>
+<img src='bar1.png' align="right" width=360>
 
 <br><br><br><br><br><br>
 
