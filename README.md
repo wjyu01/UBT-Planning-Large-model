@@ -39,7 +39,7 @@
 
 ### 场景应用展示
 <p align='center'>  
-  <img src='imgs/scene-overview.png' width='800'/>  
+  <img src='application.png' width='800'/>  
   <br><em>图1：模型在办公、家居、工业场景的规划示例</em>
 </p>
 
