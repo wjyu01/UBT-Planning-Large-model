@@ -43,7 +43,7 @@
 </p>
 
 <p align='center'>  
-  <video src='teaser.gif' controls width='800'/>  
+  <img src='teaser.gif' controls width='800'/>  
   <br><em>视频1：机器人基于模型规划的实际场景执行演示</em>
 </p>
 
