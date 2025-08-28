@@ -72,13 +72,8 @@ Qwen2.5VL 原方案通过线性层压缩视频特征以降低 Token 消耗，但
 
 #### 输入格式对比演示
 <p align='center'>  
-  <img src='imgs/input-format-compare.png' width='800'/>  
+  <img src='contrastive.png' width='800'/>  
   <br><em>图3：左：Qwen2.5VL 原 Video 输入（细节模糊）；右：本模型 Video+Key frame 输入（细节清晰）</em>
-</p>
-
-<p align='center'>  
-  <video src='videos/input-format-demo.mp4' controls width='800'/>  
-  <br><em>视频2：Video 输入 vs Video+Key frame 输入的规划细节差异演示</em>
 </p>
 
 
@@ -103,7 +98,7 @@ Qwen2.5VL 原方案通过线性层压缩视频特征以降低 Token 消耗，但
 
 #### 数据集处理流程展示
 <p align='center'>  
-  <img src='imgs/data-pipeline.png' width='750'/>  
+  <img src='datapreprocess.png' width='750'/>  
   <br><em>图4：数据清洗与增强流程</em>
 </p>
 
@@ -124,7 +119,7 @@ Qwen2.5VL 原方案通过线性层压缩视频特征以降低 Token 消耗，但
 
 #### Benchmark 结果可视化
 <p align='center'>  
-  <img src='imgs/benchmark-result.png' width='700'/>  
+  <img src='result1.png' width='700'/>  
   <br><em>图5：两大数据集核心指标对比</em>
 </p>
 
@@ -139,7 +134,7 @@ Qwen2.5VL 原方案通过线性层压缩视频特征以降低 Token 消耗，但
 
 #### 消融实验对比演示
 <p align='center'>  
-  <img src='imgs/ablation-study.png' width='650'/>  
+  <img src='bar1.png' width='650'/>  
   <br><em>图6：Video only vs Video+Key frame 性能对比</em>
 </p>
 
