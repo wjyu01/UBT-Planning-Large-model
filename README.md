@@ -152,11 +152,11 @@ Qwen2.5VL 原方案通过线性层压缩视频特征以降低 Token 消耗，但
 git clone https://github.com/ubtech-robotics/robot-planning-llm.git
 cd robot-planning-llm
 
-# 创建虚拟环境
+#### 创建虚拟环境
 conda create -n robot-planning python=3.10
 conda activate robot-planning
 
-# 安装依赖
+#### 安装依赖
 pip install torch>=2.0.1 torchvision>=0.15.2 transformers>=4.41.0
 pip install -r requirements.txt  # 包含视频处理、可视化等依赖
 
@@ -164,13 +164,13 @@ pip install -r requirements.txt  # 包含视频处理、可视化等依赖
 支持“图像+文本指令”“视频+文本指令”两种输入方式，输出机器人可执行的规划步骤。
 from robot_planning_model import RobotPlanningModel
 
-# 加载预训练模型（替换为实际模型路径）
+#### 加载预训练模型（替换为实际模型路径）
 model = RobotPlanningModel.from_pretrained(
     model_path="ubtech-robotics/robot-planning-llm-v1",
     device="cuda:0"  # 支持CPU/CUDA
 )
 
-# 示例1：图像+文本指令（家居场景：“整理桌面”）
+#### 示例1：图像+文本指令（家居场景：“整理桌面”）
 image_path = "examples/desktop.jpg"
 text_prompt = "请规划机器人整理桌面的步骤，需将书本放入书架、水杯放在托盘上"
 plan_result = model.generate(image=image_path, text=text_prompt)
@@ -178,7 +178,7 @@ print("规划结果：")
 for i, step in enumerate(plan_result["steps"], 1):
     print(f"{i}. {step}")
 
-# 示例2：视频+文本指令（工业场景：“装配螺丝”）
+#### 示例2：视频+文本指令（工业场景：“装配螺丝”）
 video_path = "examples/screw_assembly.mp4"
 text_prompt = "分析视频中螺丝装配的动作，规划机器人复现该动作的步骤"
 plan_result = model.generate(video=video_path, text=text_prompt)
