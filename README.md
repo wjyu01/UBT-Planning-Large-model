@@ -1,5 +1,7 @@
-<img src='bar1.png' align="right" width=360>
-<img src='radar1.png' align="left" width=360>
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin: 20px 0; flex-wrap: wrap;">
+  <img src='bar1.png' width="45%" max-width="360px" style="object-fit: contain;"/>
+  <img src='radar1.png' width="45%" max-width="360px" style="object-fit: contain;"/>
+</div>
 <br><br><br><br><br><br>
 
 
