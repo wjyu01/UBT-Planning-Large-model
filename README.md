@@ -1,8 +1,7 @@
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px; margin: 20px 0; flex-wrap: wrap;">
-  <img src='bar1.png' width="45%" max-width="360px" style="object-fit: contain;"/>
-  <img src='radar1.png' width="45%" max-width="360px" style="object-fit: contain;"/>
+<div style="text-align: center; margin: 20px 0;">
+  <img src='radar1.png' width="80%" max-width="600px" style="object-fit: contain;"/>
 </div>
-<br><br><br><br><br><br>
+<br><br><br>
 
 # 优必选科技机器人规划大模型
 ![GitHub Stars](https://img.shields.io/github/stars/ubtech-robotics/robot-planning-llm)
