@@ -43,7 +43,7 @@
 </p>
 
 <p align='center'>  
-  <video src='videos/scene-demo.mp4' controls width='800'/>  
+  <video src='teaser.gif' controls width='800'/>  
   <br><em>视频1：机器人基于模型规划的实际场景执行演示</em>
 </p>
 
@@ -59,7 +59,7 @@
 
 #### 技术架构图
 <p align='center'>  
-  <img src='imgs/two-stage-arch.png' width='700'/>  
+  <img src='pipline.png' width='700'/>  
   <br><em>图2：“多模态预训练 + 场景化微调”两阶段架构</em>
 </p>
 
